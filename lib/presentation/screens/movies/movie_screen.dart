@@ -54,7 +54,6 @@ class _MovieDatils extends StatelessWidget {
   const _MovieDatils({required this.movie});
   @override
   Widget build(BuildContext context) {
-    final colors = Theme.of(context).colorScheme;
     final texStyles = Theme.of(context).textTheme;
     final size = MediaQuery.of(context).size;
 
@@ -97,10 +96,6 @@ class _MovieDatils extends StatelessWidget {
             ))
           ],),
       ),
-
-
-
-
         const SizedBox(height: 100,)
       ],
     );
